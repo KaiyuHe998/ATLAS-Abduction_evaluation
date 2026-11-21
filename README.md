@@ -1,7 +1,7 @@
-# ⚙️GEAR: General Evaluation for Abductive Reasoning
+# ⚙️ATLAS: Automated Transparent Label-free Abduction Scoring
 
-This repository accompanies our paper **GEAR** (General Evaluation for Abductive Reasoning).  
-GEAR provides a **fully automated, label-free, and scalable framework** to evaluate abductive reasoning in large language models.  
+This repository accompanies our paper **ATLAS** (Automated Transparent Label-free Abduction Scoring).  
+ATLAS provides a **fully automated, label-free, and scalable framework** to evaluate abductive reasoning in large language models.  
 It measures hypothesis sets along three classical dimensions:
 
 - **Consistency** – hypotheses must correctly explain given observations  
@@ -13,7 +13,7 @@ We also propose a **momentum-based curriculum training strategy** that improves 
 
 ![Figure1](Project_abduction_evaluation/figs/Figure1.png)
 
-# $\textcolor{purple}{\text{GEAR evaluation on 9 LLMs}}$
+# $\textcolor{purple}{\text{ATLAS evaluation on 9 LLMs}}$
 
 ### Step 1, Generate initial observation(io) pairs (See in paper section 4 Sampling initial observations.)
 - Call `python generate_io_pairs.py` to sample the initial observations to seed abduction.
